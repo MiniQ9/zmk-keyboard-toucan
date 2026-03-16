@@ -221,7 +221,7 @@
 
         ru {
             bindings = <
-&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  &kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  &kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  &kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 N  &none
+&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  &kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  &kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  &kp ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 N  &none
             >;
 
             display-name = "RU";
