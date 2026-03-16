@@ -238,7 +238,7 @@
             bindings = <
 &none  &kp TILDE  &kp AT                 &kp HASH               &kp DOLLAR        &kp DQT                               &none       &kp HOME        &kp UP          &kp END          &kp PRCNT             &none
 &none  &kp PIPE   &hml LEFT_ALT CARET    &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI                              &kp INS     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none
-&none  &kp AMPS   &kp EXCL               &kp QMARK              &none             &none                                 &kp DEL     &mkp MB1        &mkp MB3        &mkp MB2         &kp PG_DN             &none
+&none  &kp AMPS   &kp EXCL               &kp QMARK              &none             &none                                 &kp DEL     &none        &none        &none         &kp PG_DN             &none
                   &swapper LEFT_ALT TAB  &swapper LCTRL TAB     &none             &none     &none    &kp RC(BACKSPACE)  &lt2 6 DOT  &none           &none           &none
             >;
 
