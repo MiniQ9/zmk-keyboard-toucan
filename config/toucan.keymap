@@ -216,7 +216,7 @@
             bindings = <
 &none       &kp GRAVE        &kp Y            &kp A              &kp U                &kp SQT                                   &kp W     &kp G         &kp N               &kp K             &none             &kp PRINTSCREEN
 &kp TAB     &hml LEFT_GUI Q  &hml LEFT_ALT I  &hml LEFT_SHIFT O  &hml LEFT_CONTROL E  &kp UNDER                                 &kp P     &hmr RCTRL D  &hmr RIGHT_SHIFT R  &hmr RIGHT_ALT V  &hmr RIGHT_GUI H  &kp CAPSLOCK
-&kp K_MENU  &kp J            &kp C            &kp F              &mkp MB1             &kp Z                                     &kp B     &kp S         &kp L               &kp M             &kp X             &none
+&kp K_MENU  &kp J            &kp C            &kp F              &none             &kp Z                                     &kp B     &kp S         &kp L               &kp M             &kp X             &none
                              &kp LC(INSERT)   &kp LS(INSERT)     &kp ESC              &lt2 2 SPACE  &kp ENTER    &kp BACKSPACE  &lt2 4 T  &none         &kp RC(C)           &kp RC(V)
             >;
 
@@ -227,7 +227,7 @@
             bindings = <
 &none       &kp GRAVE        &kp Y            &kp A              &kp U                &kp SQT                                   &kp W     &kp G         &kp N               &kp K             &none             &kp PRINTSCREEN
 &kp TAB     &hml LEFT_GUI Q  &hml LEFT_ALT I  &hml LEFT_SHIFT O  &hml LEFT_CONTROL E  &kp UNDER                                 &kp P     &hmr RCTRL D  &hmr RIGHT_SHIFT R  &hmr RIGHT_ALT V  &hmr RIGHT_GUI H  &kp CAPSLOCK
-&kp K_MENU  &kp J            &kp C            &kp F              &mkp MB1             &kp Z                                     &kp B     &kp S         &kp L               &kp M             &kp X             &none
+&kp K_MENU  &kp J            &kp C            &kp F              &none             &kp Z                                     &kp B     &kp S         &kp L               &kp M             &kp X             &none
                              &kp LC(INSERT)   &kp LS(INSERT)     &kp ESC              &lt2 2 SPACE  &kp ENTER    &kp BACKSPACE  &lt2 4 T  &none         &kp RC(C)           &kp RC(V)
             >;
 
