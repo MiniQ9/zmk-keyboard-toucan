@@ -221,7 +221,7 @@
 
         ru {
             bindings = <
-&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  &kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  &kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  &kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 T  &none
+&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  &kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  &kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  &kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 N  &none
             >;
 
             display-name = "RU";
@@ -238,7 +238,7 @@
         sym_nav_ru {
             display-name = "NAVr";
             bindings = <
-&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &en CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &none  &none  &none  &none  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
+&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp O  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &en CARET  &hml LEFT_SHIFT LS(NUMBER_6)  &hml LCTRL EQUAL  &kp LS(NUMBER_4)  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &kp EXCLAMATION  &kp LS(N7)  &none  &kp GRAVE  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
@@ -253,7 +253,7 @@
         fn_num_ru {
             display-name = "NUMr";
             bindings = <
-&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &none
+&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &kp N0
             >;
         };
 
