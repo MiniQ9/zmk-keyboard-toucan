@@ -7,14 +7,7 @@
 #define ADJ  3
 
 / {
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     combos {
         compatible = "zmk,combos";
@@ -214,42 +207,28 @@
         en {
             display-name = "EN";
             bindings = <
-&none  &kp GRAVE  &kp Y  &kp A  &kp U  &kp SQT  &kp W  &kp G  &kp N  &kp K  &none  &kp PRINTSCREEN  
-&kp TAB  &hml LEFT_GUI Q  &hml LEFT_ALT I  &hml LEFT_SHIFT O  &hml LEFT_CONTROL E  &kp UNDER  
-&kp P  &hmr RCTRL D  &hmr RIGHT_SHIFT R  &hmr RIGHT_ALT V  &hmr RIGHT_GUI H  &kp CAPSLOCK  
-&kp K_MENU  &kp J  &kp C  &kp F  &none  &kp Z  &kp B  &kp S  &kp L  &kp M  &kp X  &none  
-&kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 T  &none
+&none  &kp GRAVE  &kp Y  &kp A  &kp U  &kp SQT  &kp W  &kp G  &kp N  &kp K  &none  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Q  &hml LEFT_ALT I  &hml LEFT_SHIFT O  &hml LEFT_CONTROL E  &kp UNDER  &kp P  &hmr RCTRL D  &hmr RIGHT_SHIFT R  &hmr RIGHT_ALT V  &hmr RIGHT_GUI H  &kp CAPSLOCK  &kp K_MENU  &kp J  &kp C  &kp F  &none  &kp Z  &kp B  &kp S  &kp L  &kp M  &kp X  &none  &kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 T  &none
             >;
         };
 
         ru {
             display-name = "RU";
             bindings = <
-&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  
-&kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  
-&kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  
-&kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  
-&kp ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 N  &none
+&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  &kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  &kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  &kp ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 N  &none
             >;
         };
 
         sym_nav_en {
             display-name = "@#$e";
             bindings = <
-&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  
-&none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  
-&none  &kp AMPS  &kp EXCL  &kp QMARK  &none  &none  &kp DEL  &none  &none  &none  &kp PG_DN  &none  
-&none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
+&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp AMPS  &kp EXCL  &kp QMARK  &none  &none  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
         sym_nav_ru {
             display-name = "@#$r";
             bindings = <
-&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp O  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  
-&none  &kp PIPE  &en CARET  &hml LEFT_SHIFT LS(NUMBER_6)  &hml LCTRL EQUAL  &kp LS(NUMBER_4)  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  
-&none  &en AMPS  &kp EXCLAMATION  &kp LS(N7)  &none  &kp GRAVE  &kp DEL  &none  &none  &none  &kp PG_DN  &none  
-&none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
+&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp O  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &en CARET  &hml LEFT_SHIFT LS(NUMBER_6)  &hml LCTRL EQUAL  &kp LS(NUMBER_4)  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &kp EXCLAMATION  &kp LS(N7)  &none  &kp GRAVE  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
