@@ -243,7 +243,7 @@
         fn_num_ru {
             display-name = " RU F1";
             bindings = <
-&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &kp N0
+&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 LS(SLASH)  &kp RS(ENTER)  &none  &trans  &kp N0
             >;
         };
 
