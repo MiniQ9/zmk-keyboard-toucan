@@ -219,28 +219,28 @@
         };
 
         sym_nav_en {
-            display-name = "EN #$";
+            display-name = " EN #$";
             bindings = <
 &none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp AMPS  &kp EXCL  &kp QMARK  &none  &none  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
         sym_nav_ru {
-            display-name = "RU #$";
+            display-name = " RU #$";
             bindings = <
 &none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp O  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &en CARET  &hml LEFT_SHIFT LS(NUMBER_6)  &hml LCTRL EQUAL  &kp LS(NUMBER_4)  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &kp EXCLAMATION  &kp LS(N7)  &none  &kp GRAVE  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
         fn_num_en {
-            display-name = "EN F1";
+            display-name = " EN F1";
             bindings = <
 &kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_SLASH  &hmr LCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSLH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &kp LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &none
             >;
         };
 
         fn_num_ru {
-            display-name = "RU F1";
+            display-name = " RU F1";
             bindings = <
 &kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &kp N0
             >;
