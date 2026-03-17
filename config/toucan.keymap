@@ -212,46 +212,56 @@
         compatible = "zmk,keymap";
 
         en {
-            bindings = <
-&none  &kp GRAVE  &kp Y  &kp A  &kp U  &kp SQT  &kp W  &kp G  &kp N  &kp K  &none  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Q  &hml LEFT_ALT I  &hml LEFT_SHIFT O  &hml LEFT_CONTROL E  &kp UNDER  &kp P  &hmr RCTRL D  &hmr RIGHT_SHIFT R  &hmr RIGHT_ALT V  &hmr RIGHT_GUI H  &kp CAPSLOCK  &kp K_MENU  &kp J  &kp C  &kp F  &none  &kp Z  &kp B  &kp S  &kp L  &kp M  &kp X  &none  &kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 T  &none
-            >;
-
             display-name = "EN";
+            bindings = <
+&none  &kp GRAVE  &kp Y  &kp A  &kp U  &kp SQT  &kp W  &kp G  &kp N  &kp K  &none  &kp PRINTSCREEN  
+&kp TAB  &hml LEFT_GUI Q  &hml LEFT_ALT I  &hml LEFT_SHIFT O  &hml LEFT_CONTROL E  &kp UNDER  
+&kp P  &hmr RCTRL D  &hmr RIGHT_SHIFT R  &hmr RIGHT_ALT V  &hmr RIGHT_GUI H  &kp CAPSLOCK  
+&kp K_MENU  &kp J  &kp C  &kp F  &none  &kp Z  &kp B  &kp S  &kp L  &kp M  &kp X  &none  
+&kp ESC  &lt2 2 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 4 T  &none
+            >;
         };
 
         ru {
-            bindings = <
-&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  &kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  &kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  &kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  &kp ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 N  &none
-            >;
-
             display-name = "RU";
+            bindings = <
+&none  &kp RIGHT_BRACKET  &kp E  &kp F  &kp PERIOD  &kp SQT  &kp I  &kp U  &kp Y  &kp R  &kp SEMICOLON  &kp PRINTSCREEN  
+&kp TAB  &hml LEFT_GUI Z  &hml LEFT_ALT B  &hml LEFT_SHIFT J  &hml LEFT_CONTROL T  &kp M  
+&kp G  &hmr RCTRL L  &hmr RIGHT_SHIFT H  &hmr RIGHT_ALT D  &hmr RIGHT_GUI X  &kp CAPSLOCK  
+&kp K_MENU  &kp Q  &kp W  &kp A  &kp S  &kp P  &kp COMMA  &kp C  &kp K  &kp V  &kp LEFT_BRACKET  &none  
+&kp ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 N  &none
+            >;
         };
 
         sym_nav_en {
+            display-name = "@#$e";
             bindings = <
-&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp AMPS  &kp EXCL  &kp QMARK  &none  &none  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
+&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  
+&none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  
+&none  &kp AMPS  &kp EXCL  &kp QMARK  &none  &none  &kp DEL  &none  &none  &none  &kp PG_DN  &none  
+&none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
-
-            display-name = "NAVe";
         };
 
         sym_nav_ru {
-            display-name = "NAVr";
+            display-name = "@#$r";
             bindings = <
-&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp O  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &en CARET  &hml LEFT_SHIFT LS(NUMBER_6)  &hml LCTRL EQUAL  &kp LS(NUMBER_4)  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &kp EXCLAMATION  &kp LS(N7)  &none  &kp GRAVE  &kp DEL  &none  &none  &none  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
+&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp O  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  
+&none  &kp PIPE  &en CARET  &hml LEFT_SHIFT LS(NUMBER_6)  &hml LCTRL EQUAL  &kp LS(NUMBER_4)  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  
+&none  &en AMPS  &kp EXCLAMATION  &kp LS(N7)  &none  &kp GRAVE  &kp DEL  &none  &none  &none  &kp PG_DN  &none  
+&none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
         fn_num_en {
+            display-name = "F12e";
             bindings = <
 &kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_SLASH  &hmr LCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSLH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &kp LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &none
             >;
-
-            display-name = "NUMe";
         };
 
         fn_num_ru {
-            display-name = "NUMr";
+            display-name = "F12r";
             bindings = <
 &kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 COMMA  &kp RS(ENTER)  &none  &trans  &kp N0
             >;
