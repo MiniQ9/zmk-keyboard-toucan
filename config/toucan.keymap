@@ -1,16 +1,9 @@
+#include "keys_ru.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-
-#define EN 0
-#define RU 1
-#define NAV_EN  2
-#define NAV_RU  3
-#define SYM_EN  4
-#define SYM_RU  5
-#define ADJ  6
 
 / {
     conditional_layers { compatible = "zmk,conditional-layers"; };
