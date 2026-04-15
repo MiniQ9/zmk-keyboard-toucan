@@ -220,14 +220,14 @@
         sym_nav_en {
             display-name = " EN #$";
             bindings = <
-&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp AMPS  &kp EXCL  &kp QMARK  &none  &none  &kp DEL  &kp RC(INSERT)  &kp RS(INSERT)  &kp RS(DELETE)  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
+&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &none  &none  &none  &kp PIPE  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp AMPS  &kp EXCL  &kp QMARK  &kp PRCNT  &none  &kp DEL  &kp RC(INSERT)  &kp RS(INSERT)  &kp RS(DELETE)  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 DOT  &none
             >;
         };
 
         sym_nav_ru {
             display-name = " RU #$";
             bindings = <
-&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp RU_CYRILLIC_SHCHA  &kp HOME  &kp UP  &kp END  &kp PRCNT  &none  &none  &kp LS(NON_US_BACKSLASH)  &en CARET  &hml LEFT_SHIFT RU_COLON  &hml LCTRL EQUAL  &kp RU_SEMICOLON  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &kp EXCLAMATION  &kp RU_QUESTION  &none  &kp RU_CYRILLIC_IO  &kp DEL  &none  &mkp MB3  &mkp MB2  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 RU_DOT  &none
+&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp RU_CYRILLIC_SHCHA  &kp HOME  &kp UP  &kp END  &none  &none  &none  &kp LS(NON_US_BACKSLASH)  &en CARET  &hml LEFT_SHIFT RU_COLON  &hml LCTRL EQUAL  &kp RU_SEMICOLON  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &en AMPS  &kp EXCLAMATION  &kp RU_QUESTION  &kp PRCNT  &kp RU_CYRILLIC_IO  &kp DEL  &none  &mkp MB3  &mkp MB2  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 RU_DOT  &none
             >;
         };
 
