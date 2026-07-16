@@ -209,21 +209,21 @@
         ru {
             display-name = "RU";
             bindings = <
-&none  &kp RU_CYRILLIC_HARD_SIGN  &kp RU_CYRILLIC_U  &kp RU_CYRILLIC_A  &kp RU_CYRILLIC_YU  &kp RU_CYRILLIC_E  &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_GHE  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_ZHE  &none  &kp TAB  &hml LEFT_GUI RU_CYRILLIC_YA  &hml LEFT_ALT RU_CYRILLIC_I  &hml LEFT_SHIFT RU_CYRILLIC_O  &hml LEFT_CONTROL RU_CYRILLIC_IE  &kp RU_CYRILLIC_ZE  &kp RU_CYRILLIC_PE  &hmr RCTRL RU_CYRILLIC_DE  &hmr RIGHT_SHIFT RU_CYRILLIC_ER  &hmr RIGHT_ALT RU_CYRILLIC_VE  &hmr RIGHT_GUI RU_CYRILLIC_CHE  &kp CAPSLOCK  &kp K_MENU  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_EF  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE  &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EL  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_HA  &none  &hml RIGHT_SHIFT ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 RU_CYRILLIC_TE  &lt 7 TAB
+&none  &kp RU_CYRILLIC_HARD_SIGN  &kp RU_CYRILLIC_U  &kp RU_CYRILLIC_A  &kp RU_CYRILLIC_YU  &kp RU_CYRILLIC_E  &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_GHE  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_ZHE  &none  &kp TAB  &kp RU_CYRILLIC_YA  &kp RU_CYRILLIC_I  &hml LEFT_SHIFT RU_CYRILLIC_O  &kp RU_CYRILLIC_IE  &kp RU_CYRILLIC_ZE  &kp RU_CYRILLIC_PE  &kp RU_CYRILLIC_DE  &hmr RIGHT_SHIFT RU_CYRILLIC_ER  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_CHE  &kp CAPSLOCK  &kp K_MENU  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_EF  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_TSE  &kp RU_CYRILLIC_BE  &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EL  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_HA  &none  &hml RIGHT_SHIFT ESC  &lt2 3 SPACE  &kp ENTER  &kp BACKSPACE  &lt2 5 RU_CYRILLIC_TE  &lt 7 TAB
             >;
         };
 
         sym_nav_en {
             display-name = " EN #$";
             bindings = <
-&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &none  &none  &none  &kp AMPERSAND  &hml LEFT_ALT CARET  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp PIPE  &kp EXCL  &kp QMARK  &kp PRCNT  &none  &kp DEL  &mkp MB1  &mkp MB3  &mkp MB2  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 COMMA  &none
+&none  &kp TILDE  &kp AT  &kp HASH  &kp DOLLAR  &kp DQT  &none  &kp HOME  &kp UP  &kp END  &none  &none  &none  &kp AMPERSAND  &hml LEFT_ALT PRCNT  &hml LEFT_SHIFT COLON  &hml LCTRL EQUAL  &kp SEMI  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp PIPE  &kp CARET  &kp QMARK  &kp EXCL  &none  &kp DEL  &mkp MB1  &mkp MB3  &mkp MB2  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 COMMA  &none
             >;
         };
 
         sym_nav_ru {
             display-name = " RU #$";
             bindings = <
-&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp RU_CYRILLIC_SHCHA  &kp HOME  &kp UP  &kp END  &none  &none  &none  &en LS(AMPERSAND)  &en CARET  &hml LEFT_SHIFT RU_COLON  &hml LCTRL EQUAL  &kp RU_SEMICOLON  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp PIPE  &kp EXCLAMATION  &kp RU_QUESTION  &kp PRCNT  &kp RU_CYRILLIC_IO  &kp DEL  &mkp MB1  &mkp MB3  &mkp MB2  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 RU_COMMA  &none
+&none  &en TILDE  &en AT  &en HASH  &en DOLLAR  &en DQT  &kp RU_CYRILLIC_SHCHA  &kp HOME  &kp UP  &kp END  &none  &none  &none  &en AMPS  &hml LEFT_ALT PRCNT  &hml LEFT_SHIFT RU_COLON  &hml LCTRL EQUAL  &kp RU_SEMICOLON  &kp INS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &hmr RIGHT_GUI PG_UP  &none  &none  &kp PIPE  &en CARET  &kp RU_QUESTION  &kp EXCL  &kp RU_CYRILLIC_IO  &kp DEL  &mkp MB1  &mkp MB3  &mkp MB2  &kp PG_DN  &none  &none  &none  &none  &kp RC(BACKSPACE)  &lt2 6 RU_COMMA  &none
             >;
         };
 
@@ -237,7 +237,7 @@
         fn_num_ru {
             display-name = " RU F1";
             bindings = <
-&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &none  &en LC(Z)  &lt2 6 RU_DOT  &kp RS(ENTER)  &none  &trans  &kp N0
+&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &en LEFT_BRACKET  &en RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_DIVIDE  &hmr RCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &en LESS_THAN  &en GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BACKSLASH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &en LC(Z)  &lt2 6 RU_DOT  &kp RS(ENTER)  &none  &trans  &none
             >;
         };
 
