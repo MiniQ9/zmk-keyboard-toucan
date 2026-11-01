@@ -166,7 +166,7 @@
 
             #binding-cells = <2>;
             flavor = "balanced";
-            tapping-term-ms = <180>;
+            tapping-term-ms = <130>;
             quick-tap-ms = <120>;
         };
 
@@ -176,7 +176,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <130>;
             flavor = "balanced";
             quick-tap-ms = <120>;
         };
@@ -187,9 +187,10 @@
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <180>;
             hold-while-undecided;
-            quick-tap-ms = <210>;
+            quick-tap-ms = <120>;
+            flavor = "balanced";
         };
     };
 
@@ -227,7 +228,7 @@
         fn_num_en {
             display-name = " EN F1";
             bindings = <
-&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_SLASH  &hmr LCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSLH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &mt RIGHT_SHIFT LC(Z)  &mo 6  &kp RS(ENTER)  &none  &trans  &none
+&kp LPAR  &kp RPAR  &kp F1  &kp F2  &kp F3  &kp F4  &kp KP_ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_MINUS  &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &hml LEFT_ALT F5  &hml LEFT_SHIFT F6  &hml LEFT_CONTROL F7  &kp F8  &kp KP_SLASH  &hmr LCTRL NUMBER_4  &hmr RIGHT_SHIFT NUMBER_5  &hmr RIGHT_ALT N6  &hmr RGUI KP_PLUS  &none  &kp LESS_THAN  &kp GREATER_THAN  &kp F9  &kp F10  &kp F11  &kp F12  &kp BSLH  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &none  &mt (RIGHT_SHIFT) LC(Z)  &mo 6  &kp RS(ENTER)  &none  &trans  &none
             >;
         };
 
